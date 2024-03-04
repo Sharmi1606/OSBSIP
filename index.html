@@ -3,50 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="one">
-      <div class="two">
-        <div class="three">
-          <h id="time">9:41</h>
-          <div>
-            <i class="bx bx-signal-4"></i>
-            <i class="bx bx-wifi"></i>
-            <i class="bx bxs-battery"></i>
-          </div>
-        </div>
-        <h1>Temperature converter</h1>
 
-        <div class="degree-type">
-          <div class="degree-field">
-            <label for="degree">Degrees</label>
-            <input type="number" name="degree" id="degree" />
-          </div>
-          <div class="temp-field">
-            <label for="temp-type">Type</label>
-            <select name="temperature" id="temp-type" autocomplete="on">
-              <option value="fahrenhiet" id="fahrenhiet">Fahrenhiet</option>
-              <option value="kelvin" id="kelvin">Kelvin</option>
-            </select>
-          </div>
-        </div>
-        <div class="result">
-          <span class="result-heading">Result</span>
-          <h2 class="celsius-value" id="celsius">1</h2>
-        </div>
-        <button id="convertbtn">Convert</button>
+  <body>
+    <header>
+      <div class="container">
+        <img src="WhatsApp Image 2024-03-04 at 21.27.55_c4cef101.jpg" />
+        <h1>SHARMILA DEVI R</h1>
+        <p>Web Developer </br> B.E.CSE at Rit, Chennai </br></p>
       </div>
-    </div>
-    <script src="app.js"></script>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>ABOUT ME:</h2>
+        <p>
+          I'm an Enginnering student currently pursuing B.E.CSE(2nd year) in Rajalakshmi Institute of technology,chennai.I'm a web developer with expertise in HTML,CSS and JavaScript. 
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>SKILLS:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>python</li>
+          <li>java</li>
+          <li>c,c++</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>PROJECTS</h2>
+        <div class="project">
+          <h3>Project 1:</h3>
+          <h3>Landing page of ExpressVPN</h3>
+          <p>
+             Landing Page of ExpressVPN recreated using HTML and CSS.
+          </p>
+          <a href="https://github.com/NidarshanaKS/oibsip_taskno1"
+            >Github link</a
+          >
+          <img
+            src="Screenshot 2024-01-19 103734.png"
+            alt="Project 1"
+          />
+        </div>
+        <div class="project">
+          <h3>Project 2:</h3>
+          <h3>Tempertaure Conversion Website</h3>
+          <p>
+            Tempertaure Conversion Website built using HTML,CSS and JavaScript that converts the given value to Farenhiet or Kelvin base on users choice.
+            
+          </p>
+          <a href="https://github.com/NidarshanaKS/oibsip_taskno3"
+            >Github link</a
+          >
+          <img
+            src="Screenshot 2024-01-25 175721.png"
+            alt="Project 2"
+          />
+        </div>
+        <div class="project">
+          <h3>Project 3:</h3>
+          <h3>Portfolio Website...</h3>
+          <p>
+            Create a portfolio website using HTML and CSS to showcase your
+            skills and accomplishments
+          </p>
+          <a href="https://github.com/NidarshanaKS/oibsip_taskno2"
+            >Github link</a
+          >
+          <img
+            src="Screenshot 2024-01-25 194026.png"
+            alt="Project 2"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Sharmila devi R. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
